@@ -5,10 +5,10 @@ from sklearn.metrics import mean_squared_error as mse
 from sklearn.metrics import mean_absolute_error as mae
 
 
-HangSengIndex = pd.read_csv("^HSI.csv")
-DowJonesIndex = pd.read_csv("^DJI.csv")
-NasdaqIndex = pd.read_csv("^IXIC.csv")
-SandP500Index = pd.read_csv("^GSPC.csv")
+HangSengIndex = pd.read_csv("data/^HSI.csv")
+DowJonesIndex = pd.read_csv("data/^DJI.csv")
+NasdaqIndex = pd.read_csv("^data/IXIC.csv")
+SandP500Index = pd.read_csv("data/^GSPC.csv")
 
 DowJonesIndex.columns = ['Date', 'DJI Open', 'DJI High', 'DJI Low', 'DJI Close', 'DJI Adj Close', 'DJI Volume']
 NasdaqIndex.columns = ['Date', 'IXIC Open', 'IXIC High', 'IXIC Low', 'IXIC Close', 'IXIC Adj Close', 'IXIC Volume']
