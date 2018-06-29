@@ -1,3 +1,3 @@
 CNN:
 
-(1) Image recognition
+(1) handwriting (Image Classification with CNN)
